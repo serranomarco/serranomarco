@@ -1,8 +1,18 @@
 import React from 'react';
+import { BrowserRouter, Switch, Route } from 'react-router-dom'
+
+import Main from './Main';
 
 function App() {
   return (
-    <h1>Hello world!</h1>
+    <>
+      <BrowserRouter>
+        <Switch>
+          <Route path='/' component={Main} />
+        </Switch>
+      </BrowserRouter>
+    </>
+
   );
 }
 
