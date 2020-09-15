@@ -45,6 +45,8 @@ body{
     background-color: transparent;
     border: none;
     outline: none;
+    color: white;
+    font-size: 40px;
 
 }
 
@@ -58,6 +60,14 @@ body{
     background-color: transparent;
     border: none;
     outline: none;
+    color: white;
+    font-size: 40px;
+
+}
+
+#right:hover, #left:hover{
+    background: rgba(0, 0, 0, 0.678);
+    transition: 0.5s
 }
 
 

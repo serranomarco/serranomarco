@@ -1,10 +1,12 @@
 import React, { useState } from 'react';
 
 import Home from './Home';
-import Profile from './Profile'
+import Profile from './Profile';
+import Projects from './Projects';
+import Resume from './Resume';
 
 const Main = () => {
-    const sliderArr = [<Home />, <Profile />, 3, 4, 5];
+    const sliderArr = [<Home />, <Profile />, <Projects />, <Resume />];
     const [x, setX] = useState(0)
 
     const goLeft = () => {
@@ -23,8 +25,12 @@ const Main = () => {
                     </div>
                 )
             })}
-            <button id='left' onClick={goLeft}>left</button>
-            <button id='right' onClick={goRight}>right</button>
+            <button id='left' onClick={goLeft}>
+                <i class="fas fa-chevron-left"></i>
+            </button>
+            <button id='right' onClick={goRight}>
+                <i class="fas fa-chevron-right"></i>
+            </button>
         </div>
     )
 }
