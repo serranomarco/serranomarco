@@ -70,5 +70,26 @@ body{
     transition: 0.5s
 }
 
+.active{
+    background-color: red;
+}
+
+.nav{
+    padding: 0 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 75px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+}
+
+.nav--hidden{
+    display: none;
+}
+
 
  

@@ -2,7 +2,8 @@ import React from 'react';
 
 const Projects = () => {
     return (
-        <h1>Projects</h1>
+        <div style={{ backgroundColor: 'black', position: 'absolute', top: '70px', left: '0px', right: '0px', bottom: '0px', display: 'flex' }}>
+        </div>
     )
 }
 
