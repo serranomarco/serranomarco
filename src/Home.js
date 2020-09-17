@@ -5,8 +5,8 @@ import Typing from 'react-typing-animation';
 const Home = () => {
 
     return (
-        <div className='home-container' style={{ display: 'grid', gridTemplateColumns: '1fr 2fr', height: '100%' }}>
-            <div >
+        <div className='home-container' style={{ display: 'grid', gridTemplateColumns: '1fr 2fr', position: 'absolute', top: '0', bottom: '0', right: '0', left: '0' }}>
+            <div>
             </div>
             <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }}>
                 <Typing>

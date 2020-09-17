@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
 body{
     font-family: 'Nanum Gothic', sans-serif;
+    overflow: hidden;
 }
 
 .home-container{
@@ -20,7 +21,7 @@ body{
     right: 0;
     left: 0;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -79,8 +80,8 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 75px;
-    position: absolute;
+    height: 70px;
+    position: fixed;
     top: 0;
     left: 0;
     right: 0;
@@ -89,6 +90,10 @@ body{
 
 .nav--hidden{
     display: none;
+}
+
+.react-pdf__Document{
+    margin-top: 20px;
 }
 
 
