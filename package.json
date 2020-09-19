@@ -14,7 +14,8 @@
     "react-scripts": "3.4.3",
     "react-slick": "^0.27.11",
     "react-swipeable": "^5.5.1",
-    "react-typing-animation": "^1.6.2"
+    "react-typing-animation": "^1.6.2",
+    "react-typist": "^2.0.5"
   },
   "scripts": {
     "start": "react-scripts start",
