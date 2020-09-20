@@ -31,7 +31,7 @@ const Projects = () => {
                     </div>
                 </div>
                 <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                    <img style={{ marginTop: '20px', height: '25vh', width: '25vw' }} alt='hiketrack' src='https://spotify-clone-app.s3-us-west-2.amazonaws.com/spoofify-demo.gif' />
+                    <img style={{ marginTop: '20px', height: '25vh', width: '25vw' }} alt='spoofify' src='https://spotify-clone-app.s3-us-west-2.amazonaws.com/spoofify-demo.gif' />
                 </div>
             </div>
             <div>
@@ -46,7 +46,7 @@ const Projects = () => {
                     </div>
                 </div>
                 <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                    <img style={{ marginTop: '20px', height: '25vh', width: '25vw' }} alt='hiketrack' src='https://spotify-clone-app.s3-us-west-2.amazonaws.com/endless-demo.gif' />
+                    <img style={{ marginTop: '20px', height: '25vh', width: '25vw' }} alt='endless' src='https://spotify-clone-app.s3-us-west-2.amazonaws.com/endless-demo.gif' />
                 </div>
             </div>
             <div>
@@ -61,7 +61,7 @@ const Projects = () => {
                     </div>
                 </div>
                 <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                    <img style={{ marginTop: '20px', height: '25vh', width: '25vw' }} alt='hiketrack' src='https://spotify-clone-app.s3-us-west-2.amazonaws.com/pikagram-demo.gif' />
+                    <img style={{ marginTop: '20px', height: '25vh', width: '25vw' }} alt='pikagram' src='https://spotify-clone-app.s3-us-west-2.amazonaws.com/pikagram-demo.gif' />
                 </div>
             </div>
         </div>
