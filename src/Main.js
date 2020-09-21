@@ -3,13 +3,13 @@ import React, { useContext } from 'react';
 import Home from './Home';
 import Profile from './Profile';
 import Projects from './Projects';
-import Resume from './Resume';
 import Contact from './Contact';
 import NavBar from './NavBar';
 import Context from './Context';
+import Skills from './Skills';
 
 const Main = () => {
-    const sliderArr = [<Home />, <Profile />, <Resume />, <Projects />, <Contact />];
+    const sliderArr = [<Home />, <Profile />, <Skills />, <Projects />, <Contact />];
 
     const { x, setX } = useContext(Context)
 
@@ -44,10 +44,10 @@ const Main = () => {
                         </div>
                     )
                 })}
-                <button id='left' onClick={goLeft}>
+                <button style={{ cursor: 'pointer' }} id='left' onClick={goLeft}>
                     <i className="fas fa-chevron-left"></i>
                 </button>
-                <button id='right' onClick={goRight}>
+                <button style={{ cursor: 'pointer' }} id='right' onClick={goRight}>
                     <i className="fas fa-chevron-right"></i>
                 </button>
             </div>

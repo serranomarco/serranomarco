@@ -13,7 +13,7 @@ const NavBar = () => {
                 }}>Profile</Link>
                 <Link style={{ color: 'black', marginRight: '50px', fontFamily: 'Nanum Gothic, sans serif' }} component='button' onClick={() => {
                     setX(-200)
-                }}>Resume</Link>
+                }}>Skills</Link>
                 <Link style={{ color: 'black', marginRight: '50px', fontFamily: 'Nanum Gothic, sans serif' }} component='button' onClick={() => {
                     setX(-300)
                 }}>Projects</Link>
