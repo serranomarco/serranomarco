@@ -8,7 +8,7 @@ const Skills = () => {
                 <h1>Resume</h1>
                 <div style={{ width: '100%', height: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column' }}>
                     <p>Have a look at my resume while you're here!</p>
-                    <a href={resume} target='_blank' rel='noopener noreferrer'>Click here to resume</a>
+                    <a href={resume} target='_blank' rel='noopener noreferrer'>Click here to view resume</a>
                 </div>
             </div>
             <div style={{ backgroundColor: 'white', padding: '20px', display: 'flex', flexDirection: 'column', justifyContent: 'center', borderRadius: '5px', marginBottom: '10px' }}>
@@ -17,7 +17,7 @@ const Skills = () => {
                     <img style={{ height: '10vh' }} alt="HTML5" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/HTML5_logo_resized.svg/256px-HTML5_logo_resized.svg.png" />
                     <img style={{ height: '10vh' }} alt="CSS3" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/256px-CSS3_logo_and_wordmark.svg.png" />
                     <img style={{ height: '10vh' }} alt="Javascript" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Javascript-shield.svg/256px-Javascript-shield.svg.png" />
-                    <img style={{ height: '10vh' }} alt="Python" src="https://www.iconfinder.com/data/icons/logos-and-brands-adobe/512/267_Python-512.png" />
+                    <img style={{ height: '10vh' }} alt="Python" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/640px-Python-logo-notext.svg.png" />
                 </div>
             </div>
             <div style={{ backgroundColor: 'white', padding: '20px', display: 'flex', flexDirection: 'column', justifyContent: 'center', borderRadius: '5px', marginBottom: '10px' }}>
