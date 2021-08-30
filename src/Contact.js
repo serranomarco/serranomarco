@@ -1,7 +1,7 @@
 import React from 'react';
 const Contact = () => {
     return (
-        <div style={{ backgroundColor: 'black', position: 'absolute', top: '70px', left: '0px', right: '0px', bottom: '0px', padding: '0 10%', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+        <div style={{ backgroundColor: 'black', position: 'absolute', top: '70px', left: '0px', right: '0px', bottom: '0px', padding: '20px 10%', display: 'grid', gridTemplateColumns: '1fr 2fr'  }}>
             <div style={{ height: '65vh', display: 'flex', flexDirection: 'column' }}>
                 <div style={{ backgroundColor: 'white', borderRadius: '5px', width: '310px', padding: '20px', marginBottom: '20px', height: '33%' }}>
                     <h1>Contact Me:</h1>
@@ -31,7 +31,9 @@ const Contact = () => {
                 </div>
 
             </div>
-            <img alt='coding' style={{ height: '65vh', marginLeft: '30px' }} src='https://assets.entrepreneur.com/content/3x2/2000/20150708172005-coding-working-workspace-apple-macintosh.jpeg?width=600&crop=16:9' />
+            <div style={{ marginLeft: '30px'}}>
+                <img alt='coding' style={{ width: '100%', height: '65vh' }} src='https://assets.entrepreneur.com/content/3x2/2000/20150708172005-coding-working-workspace-apple-macintosh.jpeg?width=600&crop=16:9' />
+            </div>
         </div>
     )
 }
